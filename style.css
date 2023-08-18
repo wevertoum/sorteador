@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Signika Negative", sans-serif;
+}
+
+body,
+html {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.animated-background {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+canvas {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 8px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+}
+
+.selected-name {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.selected-winner {
+  color: #fff;
+  font-size: 100px;
+}
+
+.winner-container {
+  margin: 80px 200px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #cecece;
+  background-color: white;
+}
+
+.winner-container h2 {
+  margin-top: 0;
+}
+
+#winnerList {
+  list-style: none;
+  padding: 0;
+}
+
+#winnerList li {
+  margin-bottom: 5px;
+}
