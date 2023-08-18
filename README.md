@@ -7,4 +7,4 @@ o sistema interpreta cada linha como sendo um nome
 dica: copiar de uma planilha do google forms
 
 ## link
-[aaa](https://aaaa.com)
+[aaa](https://aaaa.com](https://weverton.me/sorteador/)https://weverton.me/sorteador/)
